@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+    width: 80%;
+    border: 1px solid saddlebrown;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 70px;
+    font-size: 25px;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.link{
+    display: flex;
+    /* justify-content: sp  ace-evenly; */
+    /* margin-left: 20px; */
+}
+.link>div{
+    margin-left: 20px;
+}
+.btn{
+    background-color: rgb(35, 100, 100);
+    border-radius: 18px;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
